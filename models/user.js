@@ -53,6 +53,7 @@ const UserSchema = new Schema(
     },
     //added by Z
     birthday: { type: Date },
+    birthYear: Number,
     tel: { type: String },
     //added by O
     //0 | 1

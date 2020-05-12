@@ -74,7 +74,7 @@ exports.register = function (req, res, next) {
                 return res.status(400).json(error);
             } else {
                 const newUser = new User({
-                    name: req.body.firstName + " " + req.body.lastName,
+                    name: req.body.name,
                     firstName: req.body.firstName,
                     lastName: req.body.lastName,
                     sexe: req.body.sexe,

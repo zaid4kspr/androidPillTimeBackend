@@ -87,6 +87,8 @@ exports.register = function (req, res, next) {
                     provider: req.body.provider,
                     fbId: req.body.fbId,
                     googleId: req.body.googleId,
+                    birthYear: req.body.birthYear,
+
 
                 });
 

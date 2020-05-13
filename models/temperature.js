@@ -6,6 +6,7 @@ const temperatureSchema = new Schema({
 
     degres: Number,
     date:Date,
+    note:String,
     ref_p: { type: Schema.Types.ObjectId, ref: 'Programme', required: false},
     user: { type: Schema.Types.ObjectId, ref: 'User', required: false},
 

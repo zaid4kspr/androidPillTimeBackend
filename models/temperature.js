@@ -11,5 +11,8 @@ const temperatureSchema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User', required: false},
 
 
+},
+{
+    timestamps: true // Saves createdAt and updatedAt as dates. createdAt will be our timestamp.
 });
 module.exports =  mongoose.model('Temperature', temperatureSchema);

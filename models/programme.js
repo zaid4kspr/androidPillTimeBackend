@@ -8,7 +8,8 @@ const programmeSchema = new Schema({
     date_fin:Date,
     duree:Number,
     maladie:String,
-    
+    user : { type: Schema.Types.ObjectId, ref: 'User' },
+
 
 },
 {

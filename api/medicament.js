@@ -5,7 +5,7 @@ module.exports = function (router) {
    
 
 
-    restify.serve(router, Medicament,{"prefix":"","version":""});
+    restify.serve(router, Medicament,{"prefix":"","version":"",totalCountHeader: true});
 
 
 

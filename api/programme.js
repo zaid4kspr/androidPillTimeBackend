@@ -4,8 +4,7 @@ module.exports = function (router) {
     const restify = require('express-restify-mongoose')
    
 
-
-    restify.serve(router, Programme,{"prefix":"","version":""});
+    restify.serve(router, Programme,{"prefix":"","version":"","totalCountHeader": true});
 
 
 
